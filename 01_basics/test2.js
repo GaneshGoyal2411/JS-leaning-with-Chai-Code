@@ -23,3 +23,5 @@ null => standalone value
 undefined =>
     symbol => unique
 */
+
+// console.log(typeof 10);
