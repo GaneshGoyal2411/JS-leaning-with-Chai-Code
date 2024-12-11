@@ -11,3 +11,7 @@ console.log(null>=0);
 
 // ===
 console.log(5==="5");
+
+//++++++++++++++++++++++++++++++++
+
+// #Stack (Primitive), #Heap (Non-Primitive)
