@@ -15,3 +15,11 @@ console.log(5==="5");
 //++++++++++++++++++++++++++++++++
 
 // #Stack (Primitive), #Heap (Non-Primitive)
+
+let myYoutubename = "Ganesh.goyaldotin";
+let anotherName = myYoutubename;
+
+anotherName = "ChaiourCode";
+
+console.log(myYoutubename);
+console.log(anotherName);
