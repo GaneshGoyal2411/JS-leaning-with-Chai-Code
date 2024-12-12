@@ -21,5 +21,19 @@ let anotherName = myYoutubename;
 
 anotherName = "ChaiourCode";
 
-console.log(myYoutubename);
-console.log(anotherName);
+// console.log(myYoutubename);
+// console.log(anotherName);
+
+
+let userOne = {
+    email:"google@gmail.com",
+    upi:"user@ybl"
+};
+
+let userTwo = userOne;
+
+// userTwo.email="ganesh.goyal2411@gmail.com";
+
+// console.log(userOne.email);
+// console.log(userTwo.email);
+
