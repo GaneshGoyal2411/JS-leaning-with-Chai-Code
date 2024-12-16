@@ -30,13 +30,16 @@ const finalR = additon2(2,5);
 
 // Another way ---------------------------------------------------------------
 
-function userLogin (userName){
-    if(userName === undefined){
-        console.log(`Please inter username`);
+function userlogin(userName = "sam"){
+    // if(userName === undefined){
+
+        if(!userName){    
+        console.log(`please enter the username`);
         return;
     }
     return `${userName} just logged in`;
 }
 
-// console.log(userLogin("Ganesh"));
-   userLogin("Ganesh");
+// console.log(userlogin("ganesh"))
+console.log(userlogin("ganesh"))
+// userlogin("");
