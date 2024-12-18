@@ -10,4 +10,21 @@ function addnums(){
 // console.log(result1);
 
 let result2 = addnums(5,5);
-console.log(result2);
+// console.log(result2);
+
+//---------- Call Stack ----------------
+function one() {
+    console.log("One");
+    // two();
+}
+function two() {
+    console.log("Two");
+    // three();
+}
+function three() {
+    console.log("Three");
+}
+
+one();
+two();
+three();
