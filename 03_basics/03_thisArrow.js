@@ -13,3 +13,5 @@ user.welconeMassage();
 user.userName="Sam";
 user.welconeMassage();
 // console.log(this);
+
+const addTwo = (num1,num2) => (num1+num2)
