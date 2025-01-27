@@ -5,6 +5,10 @@
 // }
 
 //---------------------02---------------------
-let heroes = ["flash",'batman',"supermankbhhhh
+let heroes = ["flash",'batman',"superman"];
+let arr = 0;
+while(arr<heroes.length){
     
+    console.log(heroes[arr]);
+    arr = arr+1;
 }
