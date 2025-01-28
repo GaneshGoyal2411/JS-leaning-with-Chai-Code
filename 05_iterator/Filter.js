@@ -35,4 +35,7 @@ const userBooks =myBooks.filter( (bk)=>{
     }
 })
 
-console.log(userBooks);
+// console.log(userBooks);
+
+const published = myBooks.filter( (bk)=>{return bk.publish>2000 && bk.title==="book 9"})
+console.log(published);
