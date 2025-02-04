@@ -1,19 +1,31 @@
-const form = document.querySelector('form')
-form.addEventListener('submit', function(e){
-    e.preventDefault()
+// document.getElementById('threeCups').onclick = function(){
+//     alert("owl clicked");
+// }
 
-   const height = parseInt(document.querySelector('#height').value)
-   const weight = parseInt(document.querySelector('#weight').value)
-   const result = document.querySelector('#result')
+//-------------------------------- Best One--------------------------------
+// document.querySelector("#threeCups").addEventListener('click', function(){
+//     alert("Owl clicked again");
+// })
 
-   if(height==='' || height<0 || isNaN(height)){
-    result.innerHTML = `Please give valid height ${height}`;
-   } 
-   else if(weight==='' || weight<0 || isNaN(weight)){
-    result.innerHTML = `Please give valid weight ${weight}`;
-   }
-   else{
-   const bmi = (weight/((height*height/1000)).toFixed(2));
-   result.innerHTML = `<span>${bmi}</span>`;
-   }
-})
+// ---------------------------by Making object----------------------
+// document.getElementById('images').addEventListener('mouseover', function(e){
+//     console.log("images selected");
+// }, false);
+
+// document.getElementById('twoCups').addEventListener('mouseover', function(e){
+//     console.log("Two cups hovered");
+//     e.stopPropagation(); // if want to stop boubling 
+// }, false);
+
+// document.getElementById('google').addEventListener('onclick', function(e){
+//     console.log("google clicked");
+//     e.preventDefault();
+//     e.stopPropagation();
+// },false)
+
+document.querySelector("#images").addEventListener('click', function(e){
+    console.log(e.target.parentNode);
+    let removeIt = e.target.parentNode;
+    removeIt.remove();
+}, false);
+
