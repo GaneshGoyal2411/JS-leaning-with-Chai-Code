@@ -1,3 +1,4 @@
+/*
 let heroPower = {
     thor: "hammer",
     spiderman: "sling",
@@ -54,3 +55,4 @@ String.prototype.trueLength = function(){
 anotherUser.trueLength();
 "ganesh".trueLength();
 "iceTea".trueLength();
+*/
